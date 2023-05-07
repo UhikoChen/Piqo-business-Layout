@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* 上半部分 */
+.top-nav{
+    border-bottom: 1px solid #ccc;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-group{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0;
+    font-family: sans-serif;
+}
+
+.top-group > .title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.top-group > .option-list{
+    list-style: none;
+    padding: 0;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.top-group > .option-list > li{
+    display: inline-block;
+    padding: 0 20px;
+    width: 50px; 
+}
+
+.top-group > .option-list > li >a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #8e9399;
+}
+
+.top-group > .option-list > li > a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.top-group > .sign-in{
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+    color: #1d2632;
+    text-decoration: none;
+}
+
+.top-group > .sign-in:hover{
+    text-decoration: underline;
+}
+
+
+/* 中間部分 */
+.middle-group {
+    display: grid;
+    grid-template-columns: 63% auto;
+    align-items: center;
+    padding: 80px 10px;
+    font-family: sans-serif;
+}
+
+.middle-group > .left-content > .bottom-line{
+    width: 50px;
+    border-bottom: 2px solid #13625c;
+    display: inline-block;
+    position:relative;
+    top: -3px;
+}
+
+.middle-group > .left-content > span{
+    color: #13625c;
+    font-weight: bold;
+}
+
+.middle-group > .left-content > .title{
+    font-size: 50pt;
+    font-weight: bold;
+    padding: 40px 0;
+    width: 700px;
+}
+
+.middle-group > .left-content > .text{
+    color:#8b8e92;
+    width: 500px;
+    font-size: 14pt;
+    line-height: 32px;
+}
+
+.middle-group > .left-content > .button-group{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: start;
+    padding: 50px 0;
+    font-weight: 500;
+}
+
+.middle-group > .left-content > .button-group > a{
+    text-decoration: none;
+    color: #161c25;
+}
+
+.middle-group > .left-content > .button-group > .contact-us{
+    background-color: #cdea3d;
+    border-radius: 50px;
+    padding: 25px 60px;
+    font-weight: bold;
+    margin-right:30px ;
+}
+
+.middle-group > .left-content > .button-group > .contact-us:hover{
+    background-color: #dbf075;
+}
+
+.middle-group > .left-content > .button-group > .our-showreel{
+    border-radius: 50px;
+    border: 1px solid #ededed;
+    padding: 23px 48px;
+    color: #1d2632;
+}
+
+.middle-group > .left-content > .button-group > .our-showreel:hover{
+    background-color: rgb(233, 231, 231);
+}
+
+.middle-group > .left-content > .button-group > .our-showreel > img{
+    vertical-align: middle;
+}
+
+.middle-group > .left-content > .button-group > .our-showreel > span{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.middle-group > .business-person{
+    width: 500px;
+}
+
+/* 下半部分 */
+.bottom-group{
+    display: grid;
+    grid-template-columns: 300px 300px auto;
+    font-family: sans-serif;
+    align-items: center;
+    justify-items: end;
+}
+
+.bottom-group > .dialog-box{
+    position: relative;
+}
+
+.bottom-group > .dialog-box:hover > .content >.text > .text-down{
+    text-decoration: underline;
+}
+
+.bottom-group > .dialog-box > img{
+    width: 300px;
+}
+
+.bottom-group > .dialog-box > .content{
+    position: absolute;
+    top: 24px;
+    left: 40px;
+}
+
+.bottom-group > .dialog-box > .content > img{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 50px;
+    width: 15%;
+}
+
+.bottom-group > .dialog-box > .content > .text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bottom-group > .dialog-box > .content > .text > .text-up{
+    color: #a3a5a8;
+}
+
+
+.bottom-group > .dialog-box > .content > .text > .text-down{
+    color: #161c25;
+    font-weight: bold;
+}
+
+.bottom-group > .experts{
+    justify-items: start;
+}
+
+.bottom-group > .experts > img{
+    width: 80px;
+}
+
+.bottom-group > .right-content > a{
+    display: inline-block;
+    color: #8b8e92;
+    text-decoration: none;
+    padding: 0 4px;
+}
+
+.bottom-group > .right-content > a:hover{
+    text-decoration: underline;
+}
